@@ -1,0 +1,28 @@
+/*
+Theme Name: Kogle
+Description: Teamet Kogle bruger foraldreteamet oceanwp
+Author: Nicolai Palmkvist, Thomas Gimm, Kasper Hansen, Casper Blomme
+Author URI: http://www.nicolaipalmkvist.com
+Template: oceanwp
+Version: 1.0
+*/ 
+/*******Herunder er vores CSS aandringer*********/
+
+
+
+.half-hero-wrap h1 { /*Jeg har aandret den forste del af tekstoverskriften til hvid, for var den sort*/
+    color: white;
+	}
+
+.footer-widget li a { /*Jeg har aandret farve paa min kontaktinfo i footeren, da den er vigtig, og man skal kunne se den, for var den sort*/
+ 
+  color: #D39C49;
+}
+
+.testi-avatar img { /*Jeg har givet billedet af en tidligere kilent en anden størrelse og hojde*/
+    width: 90px;
+    height: 80px;
+    
+}
+
+*/ 
