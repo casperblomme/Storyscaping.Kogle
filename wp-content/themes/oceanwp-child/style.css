@@ -8,6 +8,10 @@ Version: 1.1
 */ 
 /*******Herunder er vores CSS aandringer*********/
 
+{
+    background-color: red !important;
+}
+
 
 
 .half-hero-wrap h1 { /*Jeg har aandret den forste del af tekstoverskriften til hvid, for var den sort*/
@@ -24,11 +28,5 @@ Version: 1.1
     height: 80px;
     
 }
-
-body {
-    background-color: #edf1e9; !important
-}  /*Jeg har aendret baggrundsfaven til lysegrøn*/
-        
-
 
 */ 
