@@ -1,18 +1,20 @@
+
 body
 {
     margin: 0;
     padding: 0;
     background: #254B0C;
 }
+hej {}
 
 .login-form {
     width: 470px;
     height: 506px;
     position: fixed; 
     padding: 10px 10px;
-    background: #B57C45;
-    left: 50%;
-    top: 22%;
+    background: #254B0C;
+    left: 65%;
+    top: 16%;
     transform: translateX(-50%) translateY(-50%);
     border: solid;
   	border-color: #fff;
@@ -92,7 +94,7 @@ input[type="submit"]
 {
     width: 55%;
     height: 45px;
-    background: #254B0C !important;
+    background: #B57C45 !important;
     font-family: 'Roboto', sans-serif;
     font-size: 14px !important;
     border-radius: 12px;

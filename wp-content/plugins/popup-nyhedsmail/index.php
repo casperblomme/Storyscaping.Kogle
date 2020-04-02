@@ -3,7 +3,7 @@
 * Plugin Name: WordPress Kogle nyhedsmail
 * Plugin URI: http://nicolaipalmkvist.com/
 * Description: Et popup plugin til KOGLE som skal f folk til at tilmelde sig deres nyhedsmail
-* Version: 0.5.2
+* Version: 0.6.2
 * Author: Thomas Gimm, Nicolai Palmkvist, Casper Blomme, Kasper Hansen
 * Author: http://nicolaipalmkvist.com/
 * License: GPL2
@@ -23,19 +23,19 @@ function newsletter_form()
     $content .= '<section class="form">';
     $content .= '<form action="#">';
     $content .= '<div id="promotion-body">';
-    $content .= '<p id="promotion-body-text">Sign up for our Newsletter and learn to get fit at home with 5 Effective Low-Impact Workouts!</p>';
+    $content .= '<p id="promotion-body-text">Skriv dig op til vores nyhedsmail, og vi vil holde dig up to date på, alt det der sker indenfor Kolges univers </p>';
     $content .= '</div>';
     $content .= '<div class="input">';
-    $content .= '<input type="text" id="username" placeholder="John Mckinsey" name="username" required><i class="fa fa-user fa-1x"></i>';
+    $content .= '<input type="text" id="username" placeholder="Peter Hansen" name="username" required><i class="fa fa-user fa-1x"></i>';
     $content .= '</div>';
     $content .= '<div class="input">';
-    $content .= '<input type="email" id="email" placeholder="mckinsey@hotmail.com" name="email" required><i class="fa fa-envelope fa-1x"></i>';
+    $content .= '<input type="email" id="email" placeholder="peterhansen@hotmail.com" name="email" required><i class="fa fa-envelope fa-1x"></i>';
     $content .= '</div>';
     $content .= '<div id="submitForm">';
-    $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Subscribe Newsletter!">';
+    $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Hold mig opdateret!">';
     $content .= '</div>';
     $content .= '<div id="promotion-footer">';
-    $content .= '<p id="promotion-footer-text">Yes, I would like to receive I FORM\'s newsletter with exciting articles as well as marketing about I FORM via e-mail. You can unsubscribe at any time. Read more!</p>';
+    $content .= '<p id="promotion-footer-text">Jeg ønsker at modtage nyhedsmail fra Kogle, som kan indeholde konkurrencer, nyheder, events samt andet form for markedsføring. Du kan framelde dig vores nyhedbrev hvornår det skal være, hvis dette ønskes</p>';
     $content .= '</div>';
     $content .= '</form>';
     $content .= '</section>';
