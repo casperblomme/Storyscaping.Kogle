@@ -1,11 +1,11 @@
 <?php
 /*
-* Plugin Name: WordPress News Plugin
-* Plugin URI: https://kilic.dk/basicwordpress/testing-newsletter/
-* Description: This is a WordPress Newsletter Plugin based on HTML5, CSS, JS and PHP
-* Version: 0.9.7
-* Author: Murat Kilic
-* Author: https://kilic.dk/basicwordpress/testing-newsletter/
+* Plugin Name: WordPress Kogle nyhedsmail
+* Plugin URI: http://nicolaipalmkvist.com/
+* Description: Et popup plugin til KOGLE som skal f folk til at tilmelde sig deres nyhedsmail
+* Version: 0.5.2
+* Author: Thomas Gimm, Nicolai Palmkvist, Casper Blomme, Kasper Hansen
+* Author: http://nicolaipalmkvist.com/
 * License: GPL2
 */
 
@@ -19,7 +19,7 @@ function newsletter_form()
     $content .= '<img src=" '.plugins_url("popup-nyhedsmail/img/billede_af_kolge_logo.png").' " ';
     $content .= 'alt="login-face"></div>';
     $content .= '<div id="promotion-header">';
-    $content .= '<h1 id="promotion-header-title">STRONG AND FIT IN <span>2020</span></h1></div>';
+    $content .= '<h1 id="promotion-header-title">KOGLE<span> NYHEDSMAIL</span></h1></div>';
     $content .= '<section class="form">';
     $content .= '<form action="#">';
     $content .= '<div id="promotion-body">';
@@ -45,7 +45,7 @@ function newsletter_form()
     
 }
     #First parameter is a self choosen name for a unique short-code. Second parameter is the name of the function that creates the newsletter
-    add_shortcode('show_newsletter','newsletter_form');
+    add_shortcode('vis_popup','newsletter_form');
 
     # Take action - activate it
     add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
