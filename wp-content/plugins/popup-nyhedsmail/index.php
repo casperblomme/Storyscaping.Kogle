@@ -18,6 +18,9 @@ function newsletter_form()
     $content .= '<div class="login-face">';
     $content .= '<img src=" '.plugins_url("popup-nyhedsmail/img/billede_af_kolge_logo.png").' " ';
     $content .= 'alt="login-face"></div>';
+    $content .= '<div class="animation">';
+    $content .= '<img src=" '.plugins_url("popup-nyhedsmail/img/flueben.gif").' " ';
+    $content .= 'alt="animation"></div>';
     $content .= '<div id="promotion-header">';
     $content .= '<h1 id="promotion-header-title">KOGLE<span> NYHEDSMAIL</span></h1></div>';
     $content .= '<section class="form">';
@@ -29,7 +32,7 @@ function newsletter_form()
     $content .= '<input type="text" id="username" placeholder="Peter Hansen" name="username" required><i class="fa fa-user fa-1x"></i>';
     $content .= '</div>';
     $content .= '<div class="input">';
-    $content .= '<input type="email" id="email" placeholder="peterhansen@hotmail.com" name="email" required><i class="fa fa-envelope fa-1x"></i>';
+    $content .= '<input type="email" id="email" placeholder="Peterhansen@hotmail.com" name="email" required><i class="fa fa-envelope fa-1x"></i>';
     $content .= '</div>';
     $content .= '<div id="submitForm">';
     $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Hold mig opdateret!">';
