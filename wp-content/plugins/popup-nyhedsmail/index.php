@@ -13,7 +13,7 @@ function newsletter_form()
 {
 
     $content = '';
-    $content .= '<div class="login-form">';
+    $content .= '<div class="slide-in-bottom">';
     $content .= '<div class="popupCloseButton">X</div>';
     $content .= '<div class="login-face">';
     $content .= '<img src=" '.plugins_url("popup-nyhedsmail/img/billede_af_kolge_logo.png").' " ';

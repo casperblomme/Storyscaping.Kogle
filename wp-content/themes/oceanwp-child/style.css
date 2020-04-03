@@ -4,29 +4,22 @@ Description: Teamet Kogle bruger foraldreteamet oceanwp
 Author: Nicolai Palmkvist, Thomas Gimm, Kasper Hansen, Casper Blomme
 Author URI: http://www.nicolaipalmkvist.com
 Template: oceanwp
-Version: 1.1
+Version: 1.5
 */ 
 /*******Herunder er vores CSS aandringer*********/
 
-{
-    background-color: red !important;
+/*Gør topbar på siden grøn*/
+div#top-bar-wrap {
+background-color: #254B0C;
 }
 
-
-
-.half-hero-wrap h1 { /*Jeg har aandret den forste del af tekstoverskriften til hvid, for var den sort*/
-    color: white;
-	}
-
-.footer-widget li a { /*Jeg har aandret farve paa min kontaktinfo i footeren, da den er vigtig, og man skal kunne se den, for var den sort*/
- 
-  color: #D39C49;
+/*ændre fontstørrelsen på menupunkterne*/
+span.text-wrap {
+font-size: 14px;
 }
 
-.testi-avatar img { /*Jeg har givet billedet af en tidligere kilent en anden størrelse og hojde*/
-    width: 90px;
-    height: 80px;
-    
+/*Tilføjer ekstra mellemrum mellem bogstaverne i "økologisk lav alkohol øl" teksten på videoen*/
+h2.elementor-heading-title.elementor-size-large {
+  letter-spacing: 7.0px !important;
 }
 
-*/ 
